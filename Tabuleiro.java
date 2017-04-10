@@ -18,14 +18,14 @@ class Tabuleiro {
 	valores do atributo grid e retornar false caso encontre algum valor == 0, caso contrário
 	retornar true.*/
 	public boolean isTabuleiroPreenchido() {
-		for(int i=0;i<9;i++) {
-			for(int j=0; i<9; i++) {
+		for(int i=0;i<this.grid.length;i++) {
+			for(int j=0; i<this.grid.length; i++) {
 				if (this.grid[i][j]==0) {
 					return false;
 				}
-				else return true;
 			}
 		}
+		return true;
 	} //está dando erro na linha 23, ainda n sei o que foi
 	
 	//implementar getters e setters
