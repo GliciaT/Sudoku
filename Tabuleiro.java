@@ -26,7 +26,7 @@ class Tabuleiro {
 			}
 		}
 		return true;
-	} //está dando erro na linha 23, ainda n sei o que foi
+	}
 	
 	//implementar getters e setters
 	
