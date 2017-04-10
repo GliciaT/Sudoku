@@ -1,0 +1,2 @@
+É bom elaborarmos um jeito de listar todas as tarefas a serem feitas, as que não conseguimos e as que já realizamos;
+Uma sugestão seria utilizar o trello para gerir isso. 
