@@ -6,7 +6,8 @@ public class Partida{
   private Tabuleiro tabuleiro = new Tabuleiro();
   private int quantidadeErros;
   private boolean venceu;
-  private Date tempo = new Date();
+  //private Date tempo = new Date();
+  private long tempo = System.currentTimeMillis() + 15000;
   private int score;
   private DificuldadePartida dificuldade;
   private int quantidadeMaximaErrosAtual;
