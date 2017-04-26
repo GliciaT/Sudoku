@@ -1,8 +1,11 @@
 class Tabuleiro {
-
 	private int[][] gabarito;
 	private int[][] grid= new int[9][9];
 
+	public Tabuleiro(){
+	  
+	}
+	
 	public boolean executaMovimento(int x, int y, int valor) {
 		if(valor<=9 && valor>=1) {
 			this.grid[x][y]=valor; 
@@ -12,24 +15,23 @@ class Tabuleiro {
 	}
 	
 	public boolean isTabuleiroPreenchido() {
-		for(int i=0;i<this.grid.length;i++) {
-			for(int j=0; i<this.grid.length; i++) {
+		for(int i=0;i < this.grid.length;i++) {
+			for(int j=0; j < this.grid.length; j++) {
 				if (this.grid[i][j]==0) {
+				  System.out.println(grid[i][j]);
 					return false;
 				}
+				
 			}
 		}
 		return true;
 	}
 	
-	//implementar getters e setters
-	
 	public void resolveTabuleiro(){
-		//criar apenas a assinatura
+
 	}
 
 	public void geraTabuleiro(){
-		//criar apenas a assinatura
-		//vai receber um enum DificuldadePartida depois
+	
 	}
 }
