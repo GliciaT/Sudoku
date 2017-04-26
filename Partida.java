@@ -60,4 +60,7 @@ public class Partida{
   
   /*public int getQuantidadeMaximaErrosAtual(){
 		return this.quantidadeMaximaErrosAtual;*/
+   public long getTempo(){
+    return this.tempo;
+  }
   }
