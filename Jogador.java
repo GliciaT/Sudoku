@@ -2,6 +2,10 @@ class Jogador{
 	private String nome;
 	private int scoreRecord;
 
+  public Jogador(String nome){
+    this.nome= nome;
+  }
+	
 	public void setNome(String nome){
 		this.nome = nome;
 	}
