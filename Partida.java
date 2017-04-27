@@ -44,8 +44,8 @@ public class Partida{
     }
     
   public boolean isFimDeJogo(){
-      if(this.quantidadeErros==this.quantidadeMaximaErrosAtual){
-          System.out.println("Você perdeu!");
+      if(this.quantidadeErros>=this.quantidadeMaximaErrosAtual){
+          System.out.println("Errou mais do que podia. GAME OVER");
           return true;
       }
       return false;
