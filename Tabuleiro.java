@@ -20,7 +20,6 @@ class Tabuleiro {
 		for(int i=0;i < this.grid.length;i++) {
 			for(int j=0; j < this.grid.length; j++) {
 				if (this.grid[i][j]==0) {
-				  System.out.println(grid[i][j]);
 					return false;
 				}
 				
