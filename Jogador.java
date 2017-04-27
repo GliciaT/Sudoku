@@ -1,3 +1,5 @@
+package Principal;
+
 class Jogador{
 	private String nome;
 	private int scoreRecord;

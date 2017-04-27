@@ -1,3 +1,5 @@
+package Principal;
+
 class Tabuleiro {
 	private int[][] gabarito;
 	private int[][] grid= new int[9][9];
@@ -34,4 +36,8 @@ class Tabuleiro {
 	public void geraTabuleiro(){
 	
 	}
+        
+        public int[][] getGrid(){
+            return grid;
+        }
 }
